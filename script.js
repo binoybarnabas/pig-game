@@ -12,21 +12,8 @@ let players = {
     }
   };
 
-let players = {
-  player1: {
-    playerName: '',
-    playerScore: 0,
-    playerCurrentScore: 0,
-  },
-  player2: {
-    playerName: '',
-    playerScore: 0,
-    playerCurrentScore: 0,
-  },
-};
-
 let rollsSum = 0,
-  rolls;
+// let rolls;
 
 function rollDice() {
   rolls = Math.floor(Math.random() * 6) + 1;
@@ -50,62 +37,7 @@ let rolls = 6;
 const diceImage = document.getElementById("image");
 diceImage.src = `dice-${rolls}.png`;
 
-
-
 let scoreUpdate = document.getElementById("current--0").textContent=player1.playerScore;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 const newGame = ()=> {
   let score_0 = 0;
@@ -117,4 +49,44 @@ const newGame = ()=> {
   document.getElementById('score--0').innerHTML = score_0;
   document.getElementById('score--1').innerHTML = score_1;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
