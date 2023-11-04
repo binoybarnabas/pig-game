@@ -1,0 +1,119 @@
+[33mcommit df39e66db4cbd1724b27fab09298a998c1f1a0f3[m[33m ([m[1;36mHEAD -> [m[1;32mdev[m[33m, [m[1;31morigin/dev[m[33m)[m
+Author: Anish S <anish.s@experionglobal.local>
+Date:   Sat Nov 4 12:41:21 2023 +0530
+
+    fix: player object fixed with nested object
+
+[33mcommit e96dd5595c8d1dabc9422892a088d45b8aa48857[m
+Author: Anish S <anish.s@experionglobal.local>
+Date:   Sat Nov 4 12:35:47 2023 +0530
+
+    fix:dice image roll updated
+
+[33mcommit 1cacf2ea748d8b683015fdd6e1439340561dabf8[m
+Merge: a0b556d dd34afd
+Author: Anish S <anish.s@experionglobal.local>
+Date:   Sat Nov 4 12:13:03 2023 +0530
+
+    Merge branch 'dev' of https://github.com/binoybarnabas/pig-game into dev
+
+[33mcommit dd34afd1cdfd4b7ed8674f63959852ef94a3fcf4[m
+Author: Fazil S <fazil.s@experionglobal.local>
+Date:   Sat Nov 4 12:12:30 2023 +0530
+
+    fix:fixed js code
+
+[33mcommit a0b556d072ee4b4775345c9ad6ca5ff4b6a80292[m
+Merge: c55cf42 101df2e
+Author: Anish S <anish.s@experionglobal.local>
+Date:   Sat Nov 4 12:11:59 2023 +0530
+
+    Merge branch 'dev' of https://github.com/binoybarnabas/pig-game into dev
+
+[33mcommit c55cf42ac2ab06cde890b167f3f13b542ce070c5[m
+Merge: c961568 9607880
+Author: Anish S <anish.s@experionglobal.local>
+Date:   Sat Nov 4 12:11:50 2023 +0530
+
+    fix:- Updated dice image
+
+[33mcommit 101df2ed482c7b3ddc5ee2b5df5fc1d5e82d4f7d[m
+Merge: 15235c5 17ec99d
+Author: Dencymol Baby <dencymol.baby@experionglobal.local>
+Date:   Sat Nov 4 12:08:56 2023 +0530
+
+    feat:- add function random number generation
+
+[33mcommit 15235c55ca6ba7c130f9e4e276ffa52b5c39f07d[m
+Author: Dencymol Baby <dencymol.baby@experionglobal.local>
+Date:   Sat Nov 4 12:07:59 2023 +0530
+
+    feat:- add function random number generation
+
+[33mcommit 17ec99d4f48f704479982911b336b2745e8a3001[m
+Merge: 94454a8 9607880
+Author: Fazil S <fazil.s@experionglobal.local>
+Date:   Sat Nov 4 12:06:13 2023 +0530
+
+    fix:player object creation and scoreupdate using js
+
+[33mcommit 94454a82187f6671e59d07477888272023e1755a[m
+Author: Fazil S <fazil.s@experionglobal.local>
+Date:   Sat Nov 4 12:05:27 2023 +0530
+
+    fix:player object creation and scoreupdate using js
+
+[33mcommit c9615682c79a3e6e8e2ad1f111f44cc93bd4e6b1[m
+Author: Anish S <anish.s@experionglobal.local>
+Date:   Sat Nov 4 12:01:17 2023 +0530
+
+    fix:update
+
+[33mcommit 9607880fd3c574d1739ed509c1901b5eb3c249b7[m
+Merge: 5c9ad9d efb85c9
+Author: Dencymol Baby <dencymol.baby@experionglobal.local>
+Date:   Sat Nov 4 11:56:25 2023 +0530
+
+    Merge branch 'dev' of https://github.com/binoybarnabas/pig-game into dev
+
+[33mcommit 5c9ad9d667693f23ea23699d69b0881548d0eb9e[m
+Author: Dencymol Baby <dencymol.baby@experionglobal.local>
+Date:   Sat Nov 4 11:55:23 2023 +0530
+
+    feat:- Add random number generation
+
+[33mcommit efb85c97eb036ab8aaba1c8785d153a2f16e2773[m
+Author: Fazil S <fazil.s@experionglobal.local>
+Date:   Sat Nov 4 11:51:23 2023 +0530
+
+    fazil1 push
+
+[33mcommit d7321769492c44f8376d3fe0f34242228a7533fd[m[33m ([m[1;31morigin/dev-anish[m[33m, [m[1;31morigin/dency[m[33m)[m
+Author: Fazil S <fazil.s@experionglobal.local>
+Date:   Sat Nov 4 11:31:11 2023 +0530
+
+    fazil first push
+
+[33mcommit e61d19e5d4d1bcfa07e33bb5604416184bb2bd65[m
+Author: Mariyam Fidha Saukath Ali <mariyam.ali@experionglobal.local>
+Date:   Sat Nov 4 11:28:22 2023 +0530
+
+    mariam
+
+[33mcommit 50bc44de352b4de387b40d38c38363b32f0ba73d[m
+Author: Dencymol Baby <dencymol.baby@experionglobal.local>
+Date:   Sat Nov 4 11:20:03 2023 +0530
+
+    first commit
+
+[33mcommit 6799e42b5151824b5bebd85451c497438b8cd757[m
+Author: Anish S <anish.s@experionglobal.local>
+Date:   Sat Nov 4 11:17:04 2023 +0530
+
+    this is a test
+
+[33mcommit ff690c948ebdf0eff1f66e8ee8d0ae23217e08ea[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: Binoy Barnabas <binoy.barnabas@experionglobal.local>
+Date:   Sat Nov 4 10:51:05 2023 +0530
+
+    initial commit
