@@ -12,6 +12,8 @@ let players = {
 };
 
 let rollsSum = 0;
+
+let mainScore = document.getElementById("score--0");
 // let rolls;
 
 function rollDice() {
@@ -42,5 +44,6 @@ const newGame = () => {
   players.player1.playerScore = 0;
   scoreUpdate = document.getElementById('current--0').textContent =
     players.player1.playerScore;
+    mainScore.textContent =0;
 };
 
