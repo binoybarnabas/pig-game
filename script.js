@@ -12,3 +12,7 @@ let scoreUpdate = document.getElementById("current--0").textContent=player1.play
 
 
 
+const rollDice = () => {
+  let rolls = Math.floor(Math.random() * 6) + 1;
+  console.log(rolls);
+};
