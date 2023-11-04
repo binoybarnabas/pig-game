@@ -5,8 +5,10 @@ function rollDice() {
   rolls = Math.floor(Math.random() * 6) + 1;
 
 }
+let rolls = 3;
 
-
+const diceImage = document.getElementById("image");
+diceImage.src = `dice-${rolls}.png`;
 
 let player1 = {
     playerName :"",
