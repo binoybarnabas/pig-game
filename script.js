@@ -11,10 +11,6 @@ let players = {
       playerCurrentScore:0
     }
   };
-  
-=======
-'use strict';
->>>>>>> c2fa6a9065218169d250930bfd3cef0ed3bf32cd
 
 let players = {
   player1: {
@@ -48,7 +44,7 @@ function rollDice() {
     player1.playerScore);
   return rolls;
 }
-<<<<<<< HEAD
+
 let rolls = 6;
 
 const diceImage = document.getElementById("image");
@@ -57,16 +53,6 @@ diceImage.src = `dice-${rolls}.png`;
 
 
 let scoreUpdate = document.getElementById("current--0").textContent=player1.playerScore;
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -131,5 +117,4 @@ const newGame = ()=> {
   document.getElementById('score--0').innerHTML = score_0;
   document.getElementById('score--1').innerHTML = score_1;
 }
-=======
->>>>>>> c2fa6a9065218169d250930bfd3cef0ed3bf32cd
+
