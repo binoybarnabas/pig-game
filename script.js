@@ -13,7 +13,7 @@ let players = {
 
 let rollsSum = 0;
 
-let mainScore = document.getElementById("score--0");
+let mainScore = document.getElementById('score--0');
 // let rolls;
 
 function rollDice() {
@@ -41,9 +41,14 @@ diceImage.src = `dice-${rolls}.png`;
 // let scoreUpdate = (document.getElementById('current--0').textContent = player1.playerScore);
 
 const newGame = () => {
-  players.player1.playerScore = 0;
-  scoreUpdate = document.getElementById('current--0').textContent =
-    players.player1.playerScore;
-    mainScore.textContent =0;
+  scoreUpdate = document.getElementById('current--0').textContent = 0;
+  mainScore.textContent = 0;
 };
+
+const hold = () => {
+  mainScore = rollsSum;
+  console.log(mainScore)
+  document.getElementById("score--0").textContent =Number(document.getElementById("score--0").textContent)+mainScore;
+};
+
 
