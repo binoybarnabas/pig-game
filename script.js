@@ -12,8 +12,9 @@ let players = {
 };
 
 let rollsSum = 0;
+let scoreUpdate = 0;
 
-let mainScore = document.getElementById("score--0");
+let mainScore = document.getElementById('score--0');
 // let rolls;
 
 function rollDice() {
@@ -28,15 +29,15 @@ function rollDice() {
     playerScore: rollsSum,
   };
 
-  let scoreUpdate = (document.getElementById('current--0').textContent =
-    player1.playerScore);
+  scoreUpdate = document.getElementById('current--0').textContent =
+    player1.playerScore;
   return rolls;
 }
 
-let rolls = 6;
+// let rolls = 6;
 
-const diceImage = document.getElementById('image');
-diceImage.src = `dice-${rolls}.png`;
+// const diceImage = document.getElementById('image');
+// diceImage.src = `dice-${rolls}.png`;
 
 // let scoreUpdate = (document.getElementById('current--0').textContent = player1.playerScore);
 
@@ -44,6 +45,11 @@ const newGame = () => {
   players.player1.playerScore = 0;
   scoreUpdate = document.getElementById('current--0').textContent =
     players.player1.playerScore;
-    mainScore.textContent =0;
+  mainScore.textContent = 0;
 };
 
+const hold = () => {
+  mainScore.textContent = scoreUpdate;
+  //   console.log(mainScore);
+  //   console.log(scoreUpdate);
+};
