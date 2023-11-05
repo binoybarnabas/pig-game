@@ -33,10 +33,10 @@ function rollDice() {
 
     if (rolls == 1) {
       players.player1.playerScore = 0;
-      document.getElementById('current--0').textContent =
-        players.player1.playerScore;
+      players.player1.playerCurrentScore=0;
+      document.getElementById('score--0').textContent = players.player1.playerScore;
+      document.getElementById('current--0').textContent = players.player1.playerCurrentScore;
       rollsSum = 0;
-
       players.player1.playerActive = false;
       players.player2.playerActive = true;
     } else {
@@ -58,8 +58,9 @@ function rollDice() {
     diceImage.src = `dice-${rolls}.png`;
     if (rolls == 1) {
       players.player2.playerScore = 0;
-      document.getElementById('current--1').textContent =
-        players.player2.playerScore;
+      players.player2.playerCurrentScore = 0;
+      document.getElementById('score--1').textContent =  players.player2.playerScore;
+      document.getElementById('current--1').textContent = players.player2.playerCurrentScore;
       rollsSum = 0;
 
       players.player2.playerActive = false;
@@ -125,6 +126,7 @@ const hold = () => {
     if (players.player1.playerCurrentScore >= 100) {
       player = document.querySelector('.player--1');
       player.classList.add('player--winner');
+      
     }
 
     players.player2.playerActive = false;
@@ -136,17 +138,13 @@ const hold = () => {
 
     rollsSum = 0;
   }
-};
-
   scoreUpdate = document.getElementById('current--0').textContent = 0;
   mainScore.textContent = 0;
 };
 
-const hold = () => {
-  mainScore = rollsSum;
-  console.log(mainScore)
-  document.getElementById("score--0").textContent =Number(document.getElementById("score--0").textContent)+mainScore;
-};
+
+
+
 
 
 
