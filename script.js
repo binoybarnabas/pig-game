@@ -85,7 +85,7 @@ players.player1.playerScore = 0;
 players.player1.playerCurrentScore = 0;
 players.player2.playerScore = 0;
 players.player2.playerCurrentScore = 0;
-document.querySelector('.player--0'). classList.remove('player--active');
+document.querySelector('.player--0').classList.remove('player--active');
 document.querySelector('.player--1').classList.remove('player--active');
 document.getElementById('score--0').innerHTML = players.player1.playerScore;
 document.getElementById('current--0').innerHTML = players.player1.playerCurrentScore;
