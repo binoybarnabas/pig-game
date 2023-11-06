@@ -20,6 +20,7 @@ let rollsSum = 0;
 let mainScore1 = document.getElementById('score--0');
 let mainScore2 = document.getElementById('score--1');
 
+
 function rollDice() {
   if (players.player1.playerActive == true) {
     document.querySelector('.player--0').classList.add('player--active');
@@ -87,6 +88,7 @@ function rollDice() {
 }
 
 const newGame = () => {
+
   players.player1.playerScore = 0;
   players.player2.playerScore = 0;
 
@@ -144,3 +146,16 @@ const hold = () => {
     rollsSum = 0;
   }
 };
+
+  scoreUpdate = document.getElementById('current--0').textContent = 0;
+  mainScore.textContent = 0;
+};
+
+const hold = () => {
+  mainScore = rollsSum;
+  console.log(mainScore)
+  document.getElementById("score--0").textContent =Number(document.getElementById("score--0").textContent)+mainScore;
+};
+
+
+
