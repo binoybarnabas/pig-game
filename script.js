@@ -30,6 +30,11 @@ function rollDice() {
 
     const diceImage = document.getElementById('image');
     diceImage.src = `dice-${rolls}.png`;
+    diceImage.classList.add('diceEffect');
+
+    setTimeout(function () {
+      diceImage.classList.remove('diceEffect');
+    }, 1000);
 
     if (rolls == 1) {
       players.player1.playerScore = 0;
@@ -56,6 +61,11 @@ function rollDice() {
 
     const diceImage = document.getElementById('image');
     diceImage.src = `dice-${rolls}.png`;
+    diceImage.classList.add('diceEffect');
+
+    setTimeout(function () {
+      diceImage.classList.remove('diceEffect');
+    }, 1000);
     if (rolls == 1) {
       players.player2.playerScore = 0;
       players.player2.playerCurrentScore = 0;
@@ -94,7 +104,6 @@ const newGame = () => {
 };
 
 const hold = () => {
-  // players.player1.playerScore = 0;
   if (players.player1.playerActive == true) {
     document.querySelector('.player--1').classList.add('player--active');
     document.querySelector('.player--0').classList.remove('player--active');
