@@ -4,6 +4,20 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
+  overflow: hidden;
+}
+
+.diceEffect {
+  animation: roll 3s;
+  animation-iteration-count: 1;
+}
+@keyframes roll {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 html {
