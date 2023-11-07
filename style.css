@@ -171,6 +171,19 @@ main {
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
 }
 
+.diceEffect {
+  animation: roll 3s;
+  animation-iteration-count: 1;
+}
+@keyframes roll {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .player--winner {
   background-color: #2f2f2f;
 }
